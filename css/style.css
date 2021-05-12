@@ -36,3 +36,7 @@ h1{
 .navbar-default .navbar-brand{
   color: white;
 }
+
+.navbar-default .navbar-nav>.active>a{
+  background-color: #06632e !important;
+}
