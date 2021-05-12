@@ -24,7 +24,9 @@
   margin-right: auto;
 }
 
-.vertical-center{
-  
-
+h1{
+  text-align: center;
+  color: #0A733A;
+  font-family: Georgia;
+  text-decoration: underline;
 }
