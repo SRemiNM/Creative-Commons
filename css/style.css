@@ -1,10 +1,12 @@
-#green{
+nav > .container-fluid{
   background-color: #0A733A;
-  color: white;
-  height:30px;
-  top:50%;
-
+  color:white !important;
 }
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
 #owl{
   background-image: url(http://dev.pierrepontschool.org/wp-content/uploads/2016/11/Pierrepont-BannerLogo.png);
   max-width: 95%;
@@ -29,4 +31,8 @@ h1{
   color: #0A733A;
   font-family: Georgia;
   text-decoration: underline;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
 }
