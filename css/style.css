@@ -40,3 +40,12 @@ h1{
 .navbar-default .navbar-nav>.active>a{
   background-color: #06632e !important;
 }
+
+.photo{
+  border: 5px;
+  border-style: groove;
+}
+
+.desc{
+  font-style: italic;
+}
