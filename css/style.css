@@ -1,6 +1,7 @@
 nav > .container-fluid{
   background-color: #0A733A;
   color:white !important;
+  font-family: Georgia;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -38,7 +39,7 @@ h1{
 }
 
 .navbar-default .navbar-nav>.active>a{
-  background-color: #06632e !important;
+ background-color: #06632e !important; /*<- dark green */
 }
 
 .photo{
@@ -48,4 +49,18 @@ h1{
 
 .desc{
   font-style: italic;
+}
+
+.writing{
+  background-color: grey;
+  height: 600px;
+}
+
+#box{
+    background-color: white !important;
+    height: 500px;
+    border: 10px double #0A733A;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
 }
