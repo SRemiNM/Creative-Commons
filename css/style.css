@@ -38,8 +38,10 @@ h1{
   color: white;
 }
 
-.navbar-default .navbar-nav>.active>a{
+#on, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
  background-color: #06632e !important; /*<- dark green */
+ background-image: url();
+ color: white;
 }
 
 .photo{
@@ -53,14 +55,63 @@ h1{
 
 .writing{
   background-color: grey;
-  height: 600px;
+  /* height: 630px; */
+  padding-bottom: 40px;
 }
 
 #box{
     background-color: white !important;
-    height: 500px;
+    /*height: 530px;*/
     border: 10px double #0A733A;
     margin-top: 50px;
     text-align: center;
     font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#box>a{
+  color: #06632e;
+  font-family: Georgia;
+}
+
+.test{
+  background-image: url(https://www.ajc.com/resizer/ZnQxOqyC5IwsCNtbwv2wWf30hbI=/800x0/cloudfront-us-east-1.images.arcpublishing.com/ajc/PMPZ2QBIB32K7KN3BGJ3IXQHLY.jpg);
+  background-repeat: repeat-x;
+  background-size: 100%;
+}
+
+li:hover {
+  background-color: #06632e;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color:white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: #06632e !important;
+  color: white !important;
+  background-image: none;
+}
+
+.dropdown-menu{
+  color: #0A733A;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: #06632e !important;
+}
+
+.navbar-default .navbar-toggle{
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white !important;
+}
+
+.navbar-brand{
+  font-family: Georgia;
+  font-weight: bold;
 }
