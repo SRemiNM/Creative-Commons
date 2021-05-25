@@ -56,7 +56,6 @@ h1{
 .writing{
   background-color: grey;
   /* height: 630px; */
-  padding-bottom: 40px;
 }
 
 #box{
@@ -114,4 +113,51 @@ li:hover {
 .navbar-brand{
   font-family: Georgia;
   font-weight: bold;
+}
+
+.navbar-brand:hover{
+  background-color: #06632e !important;
+  color: white !important;
+}
+
+.footer{
+  background: url(http://dev.pierrepontschool.org/wp-content/uploads/2016/11/Pierrepont-FooterLogo.png) right 10px no-repeat #e6e6e6;
+    line-height: 1.5em;
+    min-height: 140px;
+    border-top: 4px solid #0a733a;
+    margin-top: 80px;
+    background-size: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font: 300 14px/1.4em Arial, sans-serif;
+    color: #666666;
+}
+
+
+.vid{
+  margin-top: 40px;
+}
+
+.dance{
+  text-align: center;
+  font-family: Georgia;
+  color: #0a733a;
+}
+
+.line{
+  border-top: 3px solid #e6e6e6;
+  padding: 30px;
+
+}
+
+.music{
+  padding-top: 20px;
+}
+
+.pad{
+  padding-bottom: 20px;
+}
+
+#v{
+  padding-bottom: 0px !important;
 }
