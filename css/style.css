@@ -161,3 +161,18 @@ li:hover {
 #v{
   padding-bottom: 0px !important;
 }
+
+#boxx{
+    background-color: white !important;
+    /*height: 530px;*/
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 20px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 15px rgba(0, 0, 0, 0.2);
+}
+
+.push{
+  padding-left: 20px;
+  padding-right: 20px;
+}
