@@ -176,3 +176,15 @@ li:hover {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.prose{
+  text-align: left !important;
+}
+
+.tab{
+  padding-left: 12px;
+}
+
+.c{
+  text-align: center !important;
+}
